@@ -1,0 +1,17 @@
+.manual-overlay {
+  background-color: red;
+  color: white;
+  padding: 1rem 0.5rem;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.manual-link {
+  text-decoration: none;
+  color: red;
+  font-size: 14px;
+}
+
+.manual-text {
+  padding: 1rem 0;
+}

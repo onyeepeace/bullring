@@ -1,0 +1,12 @@
+.instagram-username {
+  margin: 1rem 0;
+}
+
+.instagram-text {
+  padding-bottom: 1rem;
+}
+
+.instagram-overlay img {
+  width: 20%;
+  display: block;
+}

@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  width: fit-content;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  display: block;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a {
+  display: block;
+}
+
+.app {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.filter-btns {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  height: 79px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  padding: 1rem 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.filter-btn {
+  display: block;
+  margin-right: 1rem;
+  background-color: black;
+  padding: 1rem;
   color: white;
+  border: none;
+  border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.result {
+  margin-top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -20px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 20px; /* gutter size */
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+  margin-bottom: 20px;
+}
+
+.manual,
+.instagram,
+.twitter {
+  position: relative;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #e9e6e6;
+  font-size: 15px;
+  color: #797878;
+}
+
+.overlay {
+  position: absolute;
+  top: -3%;
+  width: fit-content;
+  border-radius: 4px;
+}
+
+.load-btn {
+  display: block;
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  border: none;
+  border-radius: 15px;
 }

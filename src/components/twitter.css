@@ -1,0 +1,26 @@
+.twitter {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.twitter-username {
+  color: #777;
+}
+
+.twitter-text {
+  padding: 1rem 0;
+  width: 100%;
+  overflow-wrap: break-word;
+}
+.twitter-overlay {
+  position: absolute;
+  top: -6%;
+  left: -4%;
+  width: fit-content;
+  border-radius: 4px;
+}
+
+.twitter-overlay img {
+  width: 30%;
+  display: block;
+}
